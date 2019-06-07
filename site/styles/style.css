@@ -1,0 +1,42 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	background-color: gray;
+}
+h1{
+	text-align: right;
+}
+
+p{
+	border: 1px solid lightblue;
+}
+@media screen and (min-width: 992px)  {
+  .row {
+      width:33.33%;
+  	  float:right;
+  }
+}
+@media screen and (max-width: 767px) {
+   .row{
+   	   width: 100%;
+   	   float: right;
+   }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+      #first{
+      	width: 50%;
+      	float: right;
+      	
+      }
+      #second{
+      	width: 50%;
+      	float: right;
+      }
+      #third{
+      	width: 100%;
+      	float: right;
+      }
+  
+  
+}
